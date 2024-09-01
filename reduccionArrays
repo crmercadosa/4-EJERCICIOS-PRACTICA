@@ -1,0 +1,6 @@
+function contarCaracteres(arreglo) {
+    return arreglo.reduce((a, b) => a + b.length, 0);
+}
+
+const palabras = ["hola", "mundo", "javascript"];
+console.log(contarCaracteres(palabras)); 
